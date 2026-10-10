@@ -1076,7 +1076,7 @@ function App() {
 
           </a>
 
-          <a href="www.linkedin.com/in/abhinav-gupta-84a557305" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/abhinav-gupta-84a557305" target="_blank" rel="noreferrer">
 
             <Linkedin size={14} /> LinkedIn <ArrowUpRight size={11} />
 
