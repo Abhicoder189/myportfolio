@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight,
@@ -324,7 +326,11 @@ function App() {
                           {m.role === "assistant" ? "ASTRA" : "YOU"}{" "}
                           <span>{m.role === "assistant" ? ">" : "$"}</span>
                         </div>
-                        <p>{m.content}</p>
+                        <div className="markdown-content">
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                            {m.content}
+                          </ReactMarkdown>
+                        </div>
                       </div>
                     ))}
                     {busy && (
