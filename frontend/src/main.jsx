@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, AudioLines, Bot, Github, Linkedin, Mail, Mic, MicOff, Volume2, VolumeX, Download, Sparkles, Terminal, X, Minimize2, Radio, Moon, Send } from 'lucide-react';
 import './style.css';
 
-const API_URL = import.meta.env.VITE_CHAT_API_URL || '';
+const API_URL = import.meta.env.VITE_API_URL || '';
 const API_METHOD = (import.meta.env.VITE_CHAT_API_METHOD || 'POST').toUpperCase();
 const API_TOKEN = import.meta.env.VITE_CHAT_API_TOKEN || '';
 const starters = [
