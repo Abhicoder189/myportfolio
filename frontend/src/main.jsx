@@ -1070,13 +1070,13 @@ function App() {
 
           <h3>QUICK LINKS</h3>
 
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Abhicoder189" target="_blank" rel="noreferrer">
 
             <Github size={14} /> GitHub <ArrowUpRight size={11} />
 
           </a>
 
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://linkedin.com/n/abhinav-gupta-84a557305/" target="_blank" rel="noreferrer">
 
             <Linkedin size={14} /> LinkedIn <ArrowUpRight size={11} />
 
@@ -1088,7 +1088,7 @@ function App() {
 
           </a>
 
-          <a href="mailto:hello@example.com">
+          <a href="mailto:guptaabhinav929@gmail.com" target="_blank" rel="noreferrer">
 
             <Mail size={14} /> Email <ArrowUpRight size={11} />
 
