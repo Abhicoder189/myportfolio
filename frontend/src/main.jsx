@@ -6,6 +6,8 @@ import remarkGfm from "remark-gfm";
 
 import { createRoot } from "react-dom/client";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import {
 
   ArrowUpRight,
@@ -410,7 +412,7 @@ function App() {
 
         <a className="brand" href="#home">
 
-          <span className="brand-mark">◈</span> ABHINAV
+          <span className="brand-mark">���</span> ABHINAV
 
           <span className="dim">.EXE</span>
 
@@ -1127,6 +1129,8 @@ function App() {
         </div>
 
       )}
+
+      <Analytics />
 
     </main>
 
